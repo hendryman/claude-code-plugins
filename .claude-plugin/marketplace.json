@@ -1,0 +1,20 @@
+{
+  "name": "hendryman-plugins",
+  "owner": {
+    "name": "Manuel Hendry",
+    "email": "manuel.hendry@gmail.com"
+  },
+  "metadata": {
+    "description": "Manuel Hendry's Claude Code plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "worktree-flow",
+      "source": "./worktree-flow/",
+      "description": "Parallel-feature development: one git worktree + one Apache port per feature, auto-managed via /wt-* commands. macOS + Homebrew Apache/PHP.",
+      "category": "workflow",
+      "tags": ["git", "worktree", "apache", "php", "solo-dev", "parallel-features"]
+    }
+  ]
+}
