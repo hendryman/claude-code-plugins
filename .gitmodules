@@ -1,0 +1,3 @@
+[submodule "worktree-flow"]
+	path = worktree-flow
+	url = git@github.com:hendryman/claude-code-worktree-flow.git
